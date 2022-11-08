@@ -29,7 +29,7 @@ export default function Editor( props ) {
         <ControlledEditor
             onBeforeChange={handleChange}
             value={value}
-            className = "code-mirror-wrapper"
+            className = 'code-mirror-wrapper'
             options={{
                 lineWrapping: true,
                 lint: true,
