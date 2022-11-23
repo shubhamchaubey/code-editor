@@ -6,7 +6,7 @@ import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 
-
+ 
 export default function Editor( props ) {
     const {
         language,
@@ -35,7 +35,7 @@ export default function Editor( props ) {
                 lint: true,
                 mode: language,
                 theme: 'material',
-                lineNumbers: true
+                lineNumbers: true,
             }}
         />
     </div>
