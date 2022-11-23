@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-//import 'codemirror/lib/codemirror.css'
+import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'
 import 'codemirror/mode/xml/xml'
 import 'codemirror/mode/javascript/javascript'
