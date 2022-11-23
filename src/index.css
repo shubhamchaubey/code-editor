@@ -33,3 +33,17 @@ div.editor-container > div:nth-child(2) > div:nth-child(1){
     display: none;
 }
 
+.editor-container.collapsed{
+    flex-grow: 0;
+}
+.editor-container.collapsed .CodeMirror-scroll{
+    position: absolute;
+    overflow: hidden !important;
+}
+.expand-collapse-btn{
+    margin-left: .5rem;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
