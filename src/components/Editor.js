@@ -43,6 +43,8 @@ export default function Editor( props ) {
                 mode: language,
                 theme: 'material',
                 lineNumbers: true,
+                autoCloseTags: true,
+                autoCloseBrackets: true,
             }}
         />
     </div>
