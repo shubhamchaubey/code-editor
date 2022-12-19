@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Editor from "./Editor";
 import useLocalStorage from "../hooks/useLocalStorage";
+import 'codemirror/addon/edit/closetag';
+import 'codemirror/addon/edit/closebrackets';
 
 function App() {
   const [html, setHtml] = useLocalStorage('html','')
