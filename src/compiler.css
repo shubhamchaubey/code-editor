@@ -1,0 +1,34 @@
+.language {
+    display: inline;
+    width: 150px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .navbar {
+    border-bottom: solid 1px #000000;
+  }
+  #source {
+    width: 100% !important;
+    background: #cccccc52;
+    height: 50vh;
+    font-size: 15px;
+    resize: vertical;
+  }
+  #input {
+    background: #cccccc52;
+    width: 47%;
+    height: 17vh;
+    resize: vertical;
+    font-size: 17px;
+  }
+  #output {
+    background: #cccccc52;
+    width: 48%;
+    height: 80vh;
+    position: fixed;
+    top: 15%;
+    font-size: 18px;
+    right: 0;
+    resize: none;
+  } 
